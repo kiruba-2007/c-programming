@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float a=67.98;
+    printf("%.6f\n",a);
+    printf("%.4f\n",a);
+    printf("%.2f\n",a);
+    printf("%.f",a);
+    return 0;
+}
