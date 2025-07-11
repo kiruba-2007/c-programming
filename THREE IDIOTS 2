@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double x1,y1,x2,y2;
+    double midpointx,midpointy;
+    scanf("%lf %lf %lf %lf",&x1,&y1,&x2,&y2);
+    midpointx=(x1+x2)/2;
+    midpointy=(y1+y2)/2;
+    printf("Binoy's house is located at (%.1lf,%.1lf)\n",midpointx,midpointy);
+    return 0;
+
+}
