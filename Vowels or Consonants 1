@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main(){
+ char ch;
+    scanf("%c",&ch);
+    switch(ch)
+        {
+            case 'a':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case 'e':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case 'i':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case 'o':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case 'u':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case 'A':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case 'E':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case'I':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case 'O':
+            printf("The Character %c is Vowel",ch);
+            break;
+            case 'U':
+            printf("The Character %c is Vowel",ch);
+            break;
+            default:
+            printf("The Character %c is Constant",ch);
+            return 0;
+            }
+}
