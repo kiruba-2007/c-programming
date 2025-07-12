@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int balance=2000,option=1, deposit, withdraw;
+    scanf("%d",&balance);
+    scanf("%d",&option);
+    switch(option)
+        {
+            case1:
+            scanf("%d",& deposit);
+            balance=balance+deposit;
+            printf("%d", balance);
+            break;
+            case2:
+              scanf("%d",& withdraw);
+
+                  if(withdraw<balance)
+                  {
+                      printf("Insufficient Balance");
+                      }
+            else{
+                balance=balance-withdraw;
+                printf("%d",balance);
+                }
+            default:
+            printf("Invalid Input");
+            }
+    }
+
