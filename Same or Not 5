@@ -1,29 +1,31 @@
 #include <stdio.h>
 
 int main() {
-    int n, allEven = 1, allOdd = 1;
 
-
-
+    int n;
+    scanf("%d", &n);  
     int arr[n];
+    int even = 0, odd = 0;
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
-
-        if (arr[i] % 2 == 0) {
-            allOdd = 0;
-        } else {
-            allEven = 0;
-        }
+        if (arr[i] % 2 == 0)
+            even++;
+        else
+            odd++;
     }
-
-    if (allEven) {
+    if (even == n)
         printf("Even\n");
-    } else if (allOdd) {
+    else if (odd == n)
         printf("Odd\n");
-    } else {
+    else
         printf("Mixed\n");
-    }
 
     return 0;
+
 }
+
+
+
+
+
 
