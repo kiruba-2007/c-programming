@@ -6,40 +6,10 @@
 int main(){
  char ch;
     scanf("%c",&ch);
-    switch(ch)
-        {
-            case 'a':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case 'e':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case 'i':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case 'o':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case 'u':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case 'A':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case 'E':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case'I':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case 'O':
-            printf("The Character %c is Vowel",ch);
-            break;
-            case 'U':
-            printf("The Character %c is Vowel",ch);
-            break;
-            default:
-            printf("The Character %c is Constant",ch);
-            return 0;
-            }
+  if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+  printf("The Character %c is Vowel",ch);
+    else
+        printf("The Character %c is Consonant",ch);
+    return 0;
 }
+    
