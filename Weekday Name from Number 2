@@ -5,7 +5,6 @@
 
 int main() {
  int num;
- char day;
   scanf("%d",&num);
    switch (num)
        {
@@ -31,7 +30,7 @@ int main() {
          printf("Sunday");
          break;
     default:
-        printf("Enter a invalid input");
+        printf("Enter a valid Input");
     }
 }
     
