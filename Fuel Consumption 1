@@ -6,23 +6,21 @@
 
 
 int main() {
-    float liters, distance, liters_per_100km, miles_per_gallon;
-
-
-    if (liters <= 0 || distance <= 0) {
-        printf("Invalid Input\n");
-        return 0;
+   float fuel,distance,lp,mpg;
+    scanf("%f",&fuel);
+    scanf("%f",&distance);
+    if(fuel<=0|| distance <=0){
+     printf("Invalid Input");
     }
-
-    liters_per_100km = (liters / distance) * 100;
-    miles_per_gallon = (distance * 0.6214) / (liters * 0.2642);
-
-    printf("Liters/100KM");
-            printf(" %.2f\n", liters_per_100km);
-    printf("Miles/gallons");
-           printf("%.2f\n", miles_per_gallon);
-
-    return 0;
+    else{
+        lp=(fuel/distance)*100;
+        mpg=(distance*0.6214)/(fuel * 0.2642);
+        printf("Liters/100KM \n%.2f\n",lp);
+        printf("Miles/gallons \n%.2f",mpg);
+    }
+   return 0;
 }
+
+
 
 
